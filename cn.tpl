@@ -19,7 +19,7 @@
 % if(! ~ $#post_arg_search_app_search_directory 0){
 
 	<pre>
-%	echo '<ruby>"'$post_arg_pinyin_query'"<rt>"'$pinyin'"</rt></ruby>' | escape_html
+%	echo '<ruby>'$post_arg_pinyin_query'<rt>'$pinyin'</rt></ruby>' | escape_html
 	</pre>
 
 % }
